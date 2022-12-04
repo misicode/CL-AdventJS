@@ -6,7 +6,18 @@ function wrapping(gifts) {
   });
 }
 
-// Lista de regalos
-const gifts = ['cat', 'game', 'socks'];
-// Llamada y resultado de la función
-console.log(wrapping(gifts));
+// Lista de pruebas
+// Compuesta por la lista de regalos
+const tests = [
+  { gifts: ['cat', 'game', 'socks'] },
+  { gifts: ['midu'] },
+  { gifts: ['a'] },
+  { gifts: [] }
+];
+
+tests.forEach(test => {
+  // Llamada a la función
+  const wrapGifts = wrapping(test.gifts);
+  // Resultado de la función
+  console.log(wrapGifts);
+});
