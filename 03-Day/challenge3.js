@@ -16,7 +16,6 @@ const tests = [
     { packOfGifts: ['music'], reindeers: ['midudev', 'pheralb', 'codingwithdani', 'carlosble', 'blasco', 'facundocapua', 'madeval', 'memxd'] }
   ];
 
-
 tests.forEach(test => {
     // Llamada a la función
     const maxBoxGifts = distributeGifts(test.packOfGifts, test.reindeers);
