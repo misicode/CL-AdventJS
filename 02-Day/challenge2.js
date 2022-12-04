@@ -6,9 +6,18 @@ function countHours(year, holidays) {
   }, 0);
 }
 
-// Llamada y resultado de la función
-// con diferentes años y días festivos
-console.log("Hours -> ", countHours(2023, ['01/06', '04/01', '12/25']));
-console.log("Hours -> ", countHours(2022, ['01/06', '04/01', '12/25']));
-console.log("Hours -> ", countHours(1985, ['01/01', '01/06', '02/02', '02/17', '02/28', '06/03', '12/06', '12/25']));
-console.log("Hours -> ", countHours(2000, ['01/01']));
+// Lista de pruebas
+// compuesta por el año y los días festivos
+const tests = [
+  { year: 2023, holidays: ['01/06', '04/01', '12/25'] },
+  { year: 2022, holidays: ['01/06', '04/01', '12/25'] },
+  { year: 1985, holidays: ['01/01', '01/06', '02/02', '02/17', '02/28', '06/03', '12/06', '12/25'] },
+  { year: 2000, holidays: ['01/01'] }
+];
+
+tests.forEach(test => {
+  // Llamada a la función
+  const extraHours = countHours(test.year, test.holidays);
+  // Resultado de la función
+  console.log("Extra Hours ->", extraHours);
+});
