@@ -1,6 +1,6 @@
 // Función para contar las horas extras a trabajar
 function countHours(year, holidays) {
-  return hours = holidays.reduce((totalHours, holiday) => {
+  return holidays.reduce((totalHours, holiday) => {
     const day = (new Date(`${holiday}/${year}`)).getDay();
     return (day == 6 || day == 0) ? totalHours : totalHours + 2;
   }, 0);
