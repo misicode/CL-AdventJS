@@ -13,5 +13,6 @@ Repositorio con las soluciones a los retos del [AdventJS](https://adventjs.dev/)
 | 01  | ¡Automatizando envolver regalos de navidad!                       | 🟢             | [Ver](./01-Day) |
 | 02  | Nadie quiere hacer horas extra                                    | 🟢             | [Ver](./02-Day) |
 | 03  | ¿Cuántas cajas de regalos puede llevar Papá Noel?                 | 🟢             | [Ver](./03-Day) |
+| 04  | Una caja dentro de otra caja y otra...                            | 🟠             | [Ver](./04-Day) |
 
-[^*]: **Dificultad**: 🟢 Easy 🟠 Normal 🔴 Hard 🟣 Very Hard
+[^*]: **Dificultad**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
