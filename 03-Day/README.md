@@ -1,7 +1,7 @@
 # :date: DÍA 3: ¿Cuántas cajas de regalos puede llevar Papá Noel?
 
 <p align="center">
-  <a href="https://adventjs.dev/es/challenges/2022/2">
+  <a href="https://adventjs.dev/es/challenges/2022/3">
     <img src="https://raw.githubusercontent.com/aleeMR/CL-AdventJS2022/master/assets/3.svg" width="300" height="300" />
   </a>
  </p>
