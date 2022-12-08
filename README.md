@@ -14,5 +14,7 @@ Repositorio con las soluciones a los retos del [AdventJS](https://adventjs.dev/)
 | 02  | Nadie quiere hacer horas extra                                    | 🟢             | [Ver](./02-Day) |
 | 03  | ¿Cuántas cajas de regalos puede llevar Papá Noel?                 | 🟢             | [Ver](./03-Day) |
 | 04  | Una caja dentro de otra caja y otra...                            | 🟠             | [Ver](./04-Day) |
+| 05  | Optimizando viajes de Santa                                       | 🔴             | [Ver](./05-Day) |
+| 06  | Creando adornos navideños                                         | 🟠             | [Ver](./06-Day) |
 
 [^*]: **Dificultad**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
