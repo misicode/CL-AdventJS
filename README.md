@@ -16,5 +16,7 @@ Repositorio con las soluciones a los retos del [AdventJS](https://adventjs.dev/)
 | 04  | Una caja dentro de otra caja y otra...                            | 🟠             | [Ver](./04-Day) |
 | 05  | Optimizando viajes de Santa                                       | 🔴             | [Ver](./05-Day) |
 | 06  | Creando adornos navideños                                         | 🟠             | [Ver](./06-Day) |
+| 07  | Haciendo inventario de regalos                                    | 🟢             | [Ver](./07-Day) |
+| 08  | ¡Necesitamos un mecánico!                                         | 🟠             | [Ver](./08-Day) |
 
 [^*]: **Dificultad**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
