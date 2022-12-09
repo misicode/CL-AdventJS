@@ -43,6 +43,7 @@ getMaxGifts([50, 70, 30], 100, 2) // 100
 getMaxGifts([50, 70, 30], 100, 3) // 100
 getMaxGifts([50, 70, 30], 100, 4) // 100
 ```
+
 A tener en cuenta:
 
 - `maxGifts >= 1`
