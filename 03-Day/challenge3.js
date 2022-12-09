@@ -17,8 +17,8 @@ const tests = [
   ];
 
 tests.forEach(test => {
-    // Llamada a la función
-    const maxBoxGifts = distributeGifts(test.packOfGifts, test.reindeers);
-    // Resultado de la función
-    console.log("Max Boxes of Gifts ->", maxBoxGifts);
+  // Llamada a la función
+  const maxBoxGifts = distributeGifts(test.packOfGifts, test.reindeers);
+  // Resultado de la función
+  console.log("Max Boxes of Gifts ->", maxBoxGifts);
 });
