@@ -1,12 +1,13 @@
 // Función para verificar si es posible empaquetar todas las cajas
 function fitsInOneBox(boxes) {
   const ordBoxes = [...boxes];
+
   return ordBoxes
     .sort((boxA, boxB) => (boxA.l * boxA.w * boxA.h) - (boxB.l * boxB.w * boxB.h))
     .every((box, index) => {
-        if (index === ordBoxes.length - 1) return true;
-        const next = ordBoxes[index + 1];
-        return box.l < next.l && box.w < next.w && box.h < next.h;
+      if(index === ordBoxes.length - 1) return true;
+      const next = ordBoxes[index + 1];
+      return box.l < next.l && box.w < next.w && box.h < next.h;
     });
 }
 
@@ -20,8 +21,8 @@ const tests = [
   ];
 
 tests.forEach(test => {
-    // Llamada a la función
-    const maxBoxGifts = fitsInOneBox(test.boxes);
-    // Resultado de la función
-    console.log("Can be packaged? ->", maxBoxGifts);
+  // Llamada a la función
+  const maxBoxGifts = fitsInOneBox(test.boxes);
+  // Resultado de la función
+  console.log("Can be packaged? ->", maxBoxGifts);
 });
