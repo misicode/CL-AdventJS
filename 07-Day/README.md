@@ -1,4 +1,4 @@
-# :date: DÍA 5: Optimizando viajes de Santa
+# :date: DÍA 7: Haciendo inventario de regalos
 
 <p align="center">
   <a href="https://adventjs.dev/es/challenges/2022/7">
