@@ -1,4 +1,4 @@
-# :date: DÍA 5: Optimizando viajes de Santa
+# :date: DÍA 6: Creando adornos navideños
 
 <p align="center">
   <a href="https://adventjs.dev/es/challenges/2022/6">

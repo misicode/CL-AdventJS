@@ -2,11 +2,11 @@
 function createCube(size) {
   const cubeTop = Array.from(
       {length: size}, 
-      (v, i) => (' ').repeat(size-i-1) + ('/\\').repeat(i+1) + ('_\\').repeat(size)
+      (_, i) => (' ').repeat(size-i-1) + ('/\\').repeat(i+1) + ('_\\').repeat(size)
     );
   const cubeBottom = Array.from(
       {length: size}, 
-      (v, i) => (' ').repeat(i) + ('\\/').repeat(size-i) + ('_/').repeat(size)
+      (_, i) => (' ').repeat(i) + ('\\/').repeat(size-i) + ('_/').repeat(size)
     );
 
   return [...cubeTop, ...cubeBottom].join('\n');
