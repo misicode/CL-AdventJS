@@ -9,11 +9,11 @@ function wrapping(gifts) {
 // Lista de pruebas
 // Compuesta por la lista de regalos
 const tests = [
-  { gifts: ['cat', 'game', 'socks'] },
-  { gifts: ['midu'] },
-  { gifts: ['a'] },
-  { gifts: [] }
-];
+    { gifts: ['cat', 'game', 'socks'] },
+    { gifts: ['midu'] },
+    { gifts: ['a'] },
+    { gifts: [] }
+  ];
 
 tests.forEach(test => {
   // Llamada a la función
