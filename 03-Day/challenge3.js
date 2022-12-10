@@ -1,9 +1,11 @@
 // Función para determinar el número máximo de cajas de regalo que se pueden entregar
 function distributeGifts(packOfGifts, reindeers) {
-  const weightGifts = packOfGifts.reduce((totalWeight, gift) => totalWeight + gift.length, 0);
-  const weightReindeers = reindeers.reduce((totalWeight, reindeer) => totalWeight + 2*(reindeer.length), 0);
-
-  return Math.floor(weightReindeers / weightGifts);
+  return Math.floor(
+    reindeers.map(reindeer => 2*(reindeer.length))
+      .reduce((totalWeight, weight) => totalWeight + weight) / 
+    packOfGifts.map(gift => gift.length)
+      .reduce((totalWeight, weight) => totalWeight + weight)
+  );
 }
 
 // Lista de pruebas
