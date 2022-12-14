@@ -18,5 +18,8 @@ Repositorio con las soluciones a los retos del [AdventJS](https://adventjs.dev/)
 | 06  | Creando adornos navideños                                         | 🟠             | [Ver](./06-Day) |
 | 07  | Haciendo inventario de regalos                                    | 🟢             | [Ver](./07-Day) |
 | 08  | ¡Necesitamos un mecánico!                                         | 🟠             | [Ver](./08-Day) |
+| 09  | Las locas luces de Navidad                                        | 🟢             | [Ver](./09-Day) |
+| 10  | El salto del trineo de Papá Noel                                  | 🟠             | [Ver](./10-Day) |
+| 11  | Papá Noel es Scrum Master                                         | 🔴             | [Ver](./11-Day) |
 
 [^*]: **Dificultad**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
