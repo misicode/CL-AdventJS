@@ -21,5 +21,7 @@ Repositorio con las soluciones a los retos del [AdventJS](https://adventjs.dev/)
 | 09  | Las locas luces de Navidad                                        | 🟢             | [Ver](./09-Day) |
 | 10  | El salto del trineo de Papá Noel                                  | 🟠             | [Ver](./10-Day) |
 | 11  | Papá Noel es Scrum Master                                         | 🔴             | [Ver](./11-Day) |
+| 12  | Trineos eléctricos, ¡guau!                                        | 🟠             | [Ver](./12-Day) |
+| 13  | Backup de los archivos de Papá Noel                               | 🟢             | [Ver](./13-Day) |
 
 [^*]: **Dificultad**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
