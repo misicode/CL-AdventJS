@@ -4,11 +4,8 @@ function fitsInOneBox(boxes) {
 
   return ordBoxes
     .sort((boxA, boxB) => (boxA.l * boxA.w * boxA.h) - (boxB.l * boxB.w * boxB.h))
-    .every((box, index) => {
-      if(index === ordBoxes.length - 1) return true;
-      const next = ordBoxes[index + 1];
-      return box.l < next.l && box.w < next.w && box.h < next.h;
-    });
+    .slice(1)
+    .every((box, i) => ordBoxes[i].l < box.l && ordBoxes[i].w < box.w && ordBoxes[i].h < box.h);
 }
 
 // Lista de pruebas
