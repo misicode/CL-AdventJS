@@ -23,5 +23,9 @@ Repositorio con las soluciones a los retos del [AdventJS](https://adventjs.dev/)
 | 11  | Papá Noel es Scrum Master                                         | 🔴             | [Ver](./11-Day) |
 | 12  | Trineos eléctricos, ¡guau!                                        | 🟠             | [Ver](./12-Day) |
 | 13  | Backup de los archivos de Papá Noel                               | 🟢             | [Ver](./13-Day) |
+| 14  | El mejor camino                                                   | 🟠             | [Ver](./14-Day) |
+| 15  | Decorando el árbol de Navidad                                     | 🟠             | [Ver](./15-Day) |
+| 16  | Arreglando las cartas de Papá Noel                                | 🔴             | [Ver](./16-Day) |
+| 17  | Llevando los regalos en sacos                                     | 🟠             | [Ver](./17-Day) |
 
 [^*]: **Dificultad**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
