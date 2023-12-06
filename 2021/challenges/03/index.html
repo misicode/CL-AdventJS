@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>
+    <title>AdventJS 2021</title>
+</head>
+<style>
+    .card-cl {
+        background-size: 125px;
+        background-image: url('../images/grinch.png');
+        background-position: 97% center;
+    }
+</style>
+<body class="bg-[#111827]">
+    <div class="flex h-screen">
+        <div class="m-auto text-white">
+            <div class="flex flex-col items-center">
+                <a class="relative" href="https://2021.adventjs.dev">
+                    <h1 class="text-4xl font-bold">
+                        advent<span class="bg-yellow-400 text-black uppercase ml-1 p-1 rounded-lg">js</span>
+                    </h1>
+                </a>
+                <a class="rounded-3xl bg-white px-1 mt-6 mb-10 text-sm" href="https://midu.dev" target="_blank" rel="noreferrer">
+                    <img src="https://midu.dev/logo.png" width="92" height="28" />
+                </a>
+            </div>
+            <a class="card-cl flex flex-col lg:flex-row gap-10 bg-no-repeat items-center p-8 relative hover:bg-gray-50 dark:hover:bg-[#151E31] rounded-xl transition group" href="https://2021.adventjs.dev/challenges/03" target="_blank" rel="noreferrer">
+                <div>
+                    <span class="block font-extrabold text-8xl relative text-green-300">
+                        #03
+                    </span>
+                    <span class="px-4 py-2 text-sm font-bold text-white rounded dark:text-gray-800" style="background-color: orange;">
+                        Normal
+                    </span>
+                </div>
+                <div>
+                    <h3 class="pb-2 text-lg font-bold transition-colors group-hover:text-yellow-500 dark:text-gray-100 xl:text-4xl lg:text-3xl">
+                        El Grinch quiere fastidiar la Navidad
+                    </h3>
+                    <h4 class="dark:text-gray-300 xl:text-2xl lg:text-xl lg:pr-24 max-w-prose">
+                        ¡El Grinch anda suelto y quiere fastidiar la Navidad! 😱 Vamos a arreglar el lío que ha montado en la fábrica de regalos de Santa Claus
+                    </h4>
+                </div>
+            </a>
+            <p class="text-slate-500 text-xs text-right font-medium tracking-wider mt-3">
+                Solution by <a class="font-bold hover:text-yellow-400" href="https://github.com/aleeMR" target="_blank" rel="noreferrer">MISICOD</a>
+            </p>
+        </div>
+    </div>
+    <script src="./challenge3.js"></script>
+</body>
+</html>
