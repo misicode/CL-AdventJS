@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="../../assets/favicon.png" />
+  <title>AdventJS 2023</title>
+</head>
+<style>
+  @font-face {
+    font-family: 'Sweater';
+    src: url('../../assets/XmasSweaterStitch.ttf');
+  }
+  .font-sweater {
+    font-family: 'Sweater', sans-serif;
+  }
+  @keyframes wiggle {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  .group-animate-wiggle:hover {
+    .animate-wiggle {
+      animation: wiggle 1s infinite;
+    }
+  }
+</style>
+<body class="bg-[#061F39]">
+  <div class="flex h-screen">
+    <div class="m-auto text-white">
+      <div class="flex flex-col items-center mb-6">
+        <a class="relative block transition-all transform scale-105 hover:contrast-150" href="https://adventjs.dev/es" target="_blank" rel="noreferrer">
+          <h1 class="flex items-center justify-center text-3xl text-yellow-300 font-sweater">
+            Advent
+            <img class="w-auto h-10 ml-2" src="../../assets/js-logo.svg" alt="JavaScript Logo" />
+          </h1>
+        </a>
+        <a class="rounded-3xl bg-white px-1 mt-6 mb-10 text-sm" href="https://midu.dev" target="_blank" rel="noreferrer">
+          <img src="https://midu.dev/logo.png" width="92" height="28" />
+        </a>
+      </div>
+      <a class="transform hover:scale-105 hover:contrast-150 group-animate-wiggle" href="https://adventjs.dev/es/challenges/2023/2" target="_blank" rel="noreferrer">
+        <article class="w-[30rem] border-2 border-[#208e3f] bg-[#208e3f]/20 rounded-lg relative min-h-[250px] h-full">
+          <div class="absolute flex flex-col top-2 right-4">
+            <span class="text-8xl font-sweater">02</span>
+            <span class="text-lime-300 relative text-base px-3 text-center bg-black rounded-full font-sweater">Fácil</span>
+          </div>
+          <img class="absolute left-10 bottom-0 w-28 md:w-40 xl:w-48 animate-wiggle" src="../../assets/02.png" alt="Challenge's image">
+        </article>
+      </a>
+      <p class="text-slate-500 text-xs text-right font-medium tracking-wider mt-3">
+          Solution by <a class="font-bold hover:text-yellow-400" href="https://github.com/misicode/CL-AdventJS2023" target="_blank" rel="noreferrer">MISICODE</a>
+      </p>
+    </div>
+  </div>
+  <script src="./challenge02.js"></script>
+</body>
+</html>
